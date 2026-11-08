@@ -1,0 +1,44 @@
+name: 🐞 Ошибка
+description: Что-то работает не так
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Спасибо, что сообщаете об ошибке! **Не прикладывайте файл budget.db и не пишите реальные суммы и номера счетов.**"
+  - type: input
+    id: version
+    attributes:
+      label: Версия Coin Atlas
+      description: Настройки → «О приложении»
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows
+      options: ["Windows 11", "Windows 10", "Другая"]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Что вы делали
+      description: Шаги, чтобы повторить ошибку
+      placeholder: |
+        1. Открыл «Счета»
+        2. Нажал «Добавить счёт»
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидали и что получилось
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Скриншоты
+      description: Перетащите картинки сюда (скройте личные данные)

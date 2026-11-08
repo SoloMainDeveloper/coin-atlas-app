@@ -1,0 +1,15 @@
+name: 💡 Идея
+description: Предложить улучшение
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу хотите решить
+      placeholder: "Хочу видеть, сколько я тратил на еду за год…"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Как это могло бы выглядеть
