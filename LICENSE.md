@@ -13,6 +13,9 @@
 5. **Сторонние компоненты.** В состав программы входят компоненты с открытыми лицензиями:
    OpenJDK / Eclipse Temurin (GPLv2 with Classpath Exception), OpenJFX (GPLv2 with Classpath Exception),
    SQLite JDBC с поддержкой шифрования (Apache License 2.0), SLF4J (MIT). Их лицензии остаются в силе.
+6. **Изменение условий.** Автор может изменить условия распространения и использования для будущих версий программы,
+   в том числе сделать их или отдельные функции платными. Версии, уже полученные вами на условиях этой лицензии,
+   можно продолжать использовать на этих условиях.
 
 ---
 
@@ -21,3 +24,5 @@
 © 2026 SoloMainDeveloper. All rights reserved. Coin Atlas is free for personal, non-commercial use.
 Redistribution of modified copies, reverse engineering (except where permitted by law) and passing it off as your own
 are prohibited. Provided "as is", without warranty of any kind. Third-party components remain under their own licenses.
+The author may change the terms for future versions (including making them or some features paid); versions you have
+already obtained under this license may continue to be used under it.
